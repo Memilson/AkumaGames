@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+}
+
+.login-box {
+    padding: 30px;
+}
+
+.login-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.enviar-button,
+.create-account-button,
+.forgot-password-button {
+    width: calc(33.33% - 5px);
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.enviar-button {
+    background-color: red;
+    color: #fff;
+}
+
+.enviar-button:hover {
+    background-color: green;
+}
+
+.create-account-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.create-account-button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password-button {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.forgot-password-button:hover {
+    background-color: #d68910;
+}
+
+.lost-password-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lost-password-link:hover {
+    text-decoration: underline;
+}
+
+.create-account-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
